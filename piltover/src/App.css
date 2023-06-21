@@ -1,0 +1,40 @@
+/* Cart.css */
+.cart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100vw;
+}
+
+.product {
+  width: 400px;
+  margin: 10px;
+  text-align: center;
+  background-color: #96e1a9;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin:20px 0px
+}
+
+.product-image:hover {
+  transform: scale(1.2);
+}
+
+.product-title {
+  margin-top: 10px;
+  font-size: 21px;
+  color: #333;
+}
+
+.product-info {
+  font-size: 17px;
+  color: #333;
+}
